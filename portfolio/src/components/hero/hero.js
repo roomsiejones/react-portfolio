@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Self from '../../images/self.jpg';
 
 export default function hero () {
     return (
@@ -14,7 +15,7 @@ estate.  I would love to help you achieve your dream project! </p><p className="
 </p>
             </div>
             <div className="picture-container">
-                <img className="imgtype profpic" src="/self.jpg" alt="Jonathon Renaud" />
+                <img className="imgtype profpic" src={ Self } alt="Jonathon Renaud" />
             </div>
             
        </div>

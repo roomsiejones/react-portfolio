@@ -10,8 +10,8 @@ Future implementation will be to make the form functionality.
 
 The portfolio page was designed with mobile first, and then transitions to a bigger screen. 
 
-![Mobile View](/images/mobile.GIF)
-![Desktop View](/images/web.GIF)
+![Mobile View](/portfolio/src/images/mobile.GIF)
+![Desktop View](/portfolio/src/images/web.GIF)
  
 ## Table of Contents 
 * [License](#license)

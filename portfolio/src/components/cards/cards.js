@@ -1,4 +1,6 @@
 import React from 'react'
+import FeBe from '../../images/febe.GIF'
+import TeamProfile from '../../images/TeamProfile.GIF'
 
 export default function cards () {
     return (
@@ -10,7 +12,7 @@ export default function cards () {
                 <p className="project-title">FeBe (Feel Better)</p>
                 <a href="https://github.com/perez-rob/FeBe-Feel-Better">
                     <div className="picture-container two">
-                        <img className="imgtype" src="/febe.GIF" alt="Febe screenshot" />
+                        <img className="imgtype" src={ FeBe } alt="Febe screenshot" />
                     </div>
                 </a>
                 <p className="project-desc">Full stack application that allows users to receive activities based on their mood, update the database based on feedback, update activities based on user creations, track previous activities received and chat with other logged in users to better their mental health. Utilized Handlebars, MySQL, SocketIO, Express, and a wide range of front end skills.</p>
@@ -31,7 +33,7 @@ export default function cards () {
                 <p className="project-title">Team Profile Generator</p>
                 <a href="https://github.com/roomsiejones/team_profile_generator">
                     <div className="picture-container three">
-                        <img className="imgtype" src="/TeamProfile.GIF" alt="Team Profile" />
+                        <img className="imgtype" src={ TeamProfile } alt="Team Profile" />
                     </div>
                 </a>
                 <p className="project-desc">Creates a styled HTML page with cards of team members’ information including 1 manager, any amount of engineers and interns from the Command Line Interface. Utilizes JavaScript, CSS, HTML, Inquirer, Jest, Node.js.

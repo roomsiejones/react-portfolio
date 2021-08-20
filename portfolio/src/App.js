@@ -8,14 +8,14 @@ import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
         <Header />
           <Switch>
-            <Route component={ contactForm } path='/contact' />
-            <Route component={ hero } path='/about-me' />
-            <Route component={ cards } path='/projects' />
-            <Route component={ hero } path='/' />
+            <Route component={ contactForm } exact path='/contact' />
+            <Route component={ hero } exact path='/about-me' />
+            <Route component={ cards } exact path='/projects' />
+            <Route component={ hero } exact path='/' />
             {/* <Route component={} path='' />
             <Route component={} path='' /> */}
           </Switch>
