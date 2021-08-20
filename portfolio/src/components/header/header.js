@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import Nav from '../nav/nav'
 
 
@@ -7,7 +9,7 @@ export default function Header () {
         <div className="navbar-fixed">
         <div className="nav-container">
             <header>
-                   <a href="/" className="logo">Jonathon Renaud</a>
+                   <Link to="/" className="logo">Jonathon Renaud</Link>
         <Nav />    
         </header>
         </div>
