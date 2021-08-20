@@ -15,6 +15,7 @@ function App() {
             <Route component={ contactForm } path='/contact' />
             <Route component={ hero } path='/about-me' />
             <Route component={ cards } path='/projects' />
+            <Route component={ hero } path='/' />
             {/* <Route component={} path='' />
             <Route component={} path='' /> */}
           </Switch>
