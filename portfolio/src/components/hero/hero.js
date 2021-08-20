@@ -3,6 +3,8 @@ import "./hero.css"
 
 export default function hero () {
     return (
-        <div> </div>
+        <div>
+            This is about me!
+             </div>
     )
 }

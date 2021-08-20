@@ -3,6 +3,8 @@ import "./cards.css"
 
 export default function cards () {
     return (
-        <div></div>
+        <div>
+            This is projects!
+        </div>
     )
 }

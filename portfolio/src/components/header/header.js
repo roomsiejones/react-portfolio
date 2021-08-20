@@ -1,10 +1,13 @@
 import React from 'react'
-import '../nav'
+import Nav from '../nav/nav'
 import "./header.css"
 
 
-export default function header () {
+export default function Header () {
     return (
-        <div> </div>
+        <div>
+        <h1>Jonathon Renaud</h1>
+        <Nav />    
+        </div>
     )
 }
