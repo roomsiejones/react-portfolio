@@ -1,0 +1,361 @@
+body {
+    background-image: url("./images/5-dots.png");
+  }
+  
+  .nav-container {
+    background: black;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2em;
+  }
+  
+  header .logo {
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  header .links {
+    color: #64ffe3;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+  
+  header nav a {
+    display: block;
+    padding: 0 1em;
+    text-decoration: none;
+    ;
+  }
+  
+  .pill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #0b06ff;
+    border-radius: 40%;
+    width: 6em;
+    height: 2.5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    float: right;
+    margin-right: 2.7em;
+  }
+  
+  .contact {
+    display: block;
+    color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    opacity: 75%;
+  }
+  
+  .purpose {
+    width: 60vw;
+    height: 25vh;
+    margin: 3em 0 -2em 1.9em;
+  }
+  
+  .catchphrase {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .subphrase {
+    color: blanchedalmond;
+    font-size: 11px;
+    padding-top: .8em;
+    -webkit-text-decoration: underline blue .25em;
+            text-decoration: underline blue .25em;
+  }
+  
+  .split {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+
+  .splittext {
+    width:60vw
+
+  }
+
+  .proftext {
+    font-weight:700;
+    color:white;
+  }
+  .profpic {
+    width:8em;
+     height: 8em;
+     margin: 3em
+  }
+
+  .projects-container {
+    color: var(--wht);
+    text-align: center;
+    display: block;
+    margin: -.5em .5em .25em .5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .project-title {
+    font-weight: bold;
+    font-size: larger;
+    margin: 1em 0 1em 0;
+  }
+  
+  .project-desc {
+    font-size: small;
+    margin: 1em 0 1em 0;
+  }
+  
+  .projects-container li {
+    background-color: white;
+    display: block;
+    margin-top: 1em;
+    padding: 1em;
+    border: .2em, white;
+    border-radius: 3em;
+  }
+  
+  .projects-container li .imgtype {
+    width: 75vw;
+    height: 45vw;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+  footer h4 {
+    color:white;
+    margin-top: 3em;
+   
+    }
+  footer ul {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      border-left: 2px solid white;
+     
+
+      
+  }
+  footer ul li a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: .5em;
+
+  }
+
+  .copyright {
+    color: white;
+    background: black;
+    min-height: 3em;
+    margin-top: 5em;
+  }
+  
+  
+
+
+  @media only screen and (min-width: 800px) {
+    header .logo {
+      font-size: 24px;
+    }
+    header .links {
+      font-size: 18px;
+    }
+
+    .formbigger div {
+        min-width: 50%;
+        font-size: 2em;
+    }
+    .projects-container ul {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 33% auto auto;
+          grid-template-columns: 33% auto auto;
+      margin-bottom: -1em;
+    }
+    .projects-container ul .imgtype {
+      width: 25vw;
+      height: 15vw;
+    }
+    .catchphrase {
+      font-size: 2em;
+    }
+    .subphrase {
+      font-size: 1.4em;
+    }
+
+    .split {
+        flex-direction: row;
+        
+    }
+  
+    .splittext {
+      width:40vw
+  
+    }
+  
+    .proftext {
+      font-size: 1.3em;
+    }
+    .profpic {
+      width: 12em;
+       height: 12em;
+       margin: 3em
+    }
+    .copyright {
+      font-size: larger;
+      font-weight: bold;
+      margin-left: 5em;
+    }
+
+    footer {
+        flex-direction: row;
+
+    }
+
+    footer h4 {
+        margin-left: 2em;
+        font-size: 1.2em;
+        margin-top: 4em;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2em;
+        margin-top: 4em;
+    }
+
+    footer ul li {
+        font-size: 1.2em;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    header .logo {
+      font-size: 32px;
+    }
+    header .links {
+      font-size: 24px;
+    }
+    nav a {
+      padding: 0 2em;
+    }
+    .projects-container ul {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 33% auto auto;
+          grid-template-columns: 33% auto auto;
+      margin-bottom: -1em;
+    }
+    .projects-container ul .imgtype {
+      width: 25vw;
+      height: 15vw;
+    }
+    .purpose {
+      height: unset;
+      margin-bottom: 2em;
+    }
+    .catchphrase {
+      font-size: 4em;
+    }
+    .subphrase {
+      font-size: 2em;
+    }
+
+    .splittext {
+        width:45vw
+    
+      }
+    
+      .proftext {
+        font-size: 1.4em;
+      }
+      .profpic {
+        width: 16em;
+         height: 16em;
+         margin: 3em;
+         margin-top:-2em;
+      }
+       
+      .formbigger div {
+        min-width: 60%;
+        font-size: 2em;
+    }
+
+    .pill {
+      width: 12em;
+      height: 5em;
+      margin: 2 2.7em 0 0;
+    }
+
+
+    .contact {
+      margin-top: 1em;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+   
+    .copyright {
+      font-size: larger;
+      font-weight: bold;
+      margin-left: 5em;
+    }
+
+    footer {
+        margin-left: 5em;
+        margin-right: 5em;
+
+    }
+
+    footer ul li {
+        padding-left: 3em;
+    }
+  }
+  /*# sourceMappingURL=main.css.map */

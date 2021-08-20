@@ -5,9 +5,13 @@ import "./header.css"
 
 export default function Header () {
     return (
-        <div>
-        <h1>Jonathon Renaud</h1>
+        <div className="navbar-fixed">
+        <div className="nav-container">
+            <header>
+                   <a href="/" className="logo">Jonathon Renaud</a>
         <Nav />    
+        </header>
         </div>
+    </div>
     )
 }
